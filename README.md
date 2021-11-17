@@ -40,12 +40,12 @@ https://www.bathandbodyworks.com
 
 
 #### Screenshot(s) van de eerste pagina (small screen): 
-hier de naam van de pagina  
-<img src="images/home-pagina.jpg" width="375px" alt="omschrijving van de pagina">
+Home pagina 
+<img src="images/home-pagina.jpg" width="375px" alt="home pagina">
 
 #### Screenshot(s) van de tweede pagina (small screen):
-hier de naam van de pagina  
-<img src="images/product-pagina.jpf" width="375px" alt="omschrijving van de pagina">
+Product (hand sanitizer's)  pagina  
+<img src="images/product-pagina.jpf" width="375px" alt="hand sanitizer product pagina">
  
 </details>
 
