@@ -41,11 +41,11 @@ https://www.bathandbodyworks.com
 
 #### Screenshot(s) van de eerste pagina (small screen): 
 hier de naam van de pagina  
-<img src="images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+<img src="images/home-pagina.jpg" width="375px" alt="home pagina">
 
 #### Screenshot(s) van de tweede pagina (small screen):
 hier de naam van de pagina  
-<img src="images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+<img src="images/product-pagina.jpf" width="375px" alt="product pagina">
  
 </details>
 
@@ -60,7 +60,7 @@ hier de naam van de pagina
 <img src="images/breakdown_sheet.png" width="375px" alt="breakdown van de hele pagina">
 
 ### dynamisch deel (bijv menu): 
-<img src="images/menu.png" width="375px" alt="breakdown van een dynamisch deel">
+<img src="images/menu.png" width="375px" alt="breakdown van het menu">
 
 ### wellicht nog een dynamisch deel (bijv filter): 
 <img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
