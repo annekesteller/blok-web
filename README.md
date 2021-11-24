@@ -77,17 +77,17 @@ hier de naam van de pagina
 <summary>uitwerken voor 1e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Afgelopen twee weken heb ik zo goed mogelijk geprobeert om
 
 
 ### Agenda voor meeting
 samen met je groepje opstellen
 
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+| Aris Rosbach   | Max van Liempdt    | Zoë Reijinga | Fleur Oostingh   | Anneke Steller |
+| ---            | ---                | ---          | ---              | ---            |
+| Vragen over    |                    | Vragen over  | en dan ik dat    | Ik loop achter.   
+| margins        | dit als er tijd is | zoekbalk erin| dit wil ik zeker | 
+| ...            | ...                | zetten       | ...              |
 
 
 ### Verslag van meeting
@@ -98,7 +98,7 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 - nog een punt
 - ...
 
-</details>
+</details> 
 
 
 
