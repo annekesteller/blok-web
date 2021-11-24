@@ -1,5 +1,80 @@
 /* CSS Document */
 *, *::after, *::before {
   box-sizing:border-box;  
+  margin: 0;
+  padding: 0;
 }
 
+:root{
+  --main-color: white; 
+  --brand-color: #005699; 
+  --accent-color: #333333; 
+  --second-accent-color: #666666; 
+  --background-color: #F2F2F2;
+
+}
+
+img{
+  width: 30px; 
+}
+/*************/
+/* Header */
+/*************/
+
+
+
+header section a{
+  font-size: 12px;
+}
+
+header section p{
+  font-size: 12px; 
+  font-family: 'TrendSansOne', 'Times New Roman', Times, serif; 
+}
+
+header section img{
+  width: 28px;
+}
+
+header section h1 img{
+  width: 150px; 
+}
+
+header section:first-of-type{
+    display: flex;
+    
+
+    background-image: url("images/achtergrond_blokjes.svg");
+    
+}
+
+header section:nth-of-type(2){
+        display: flex;
+        justify-content: space-between;
+
+        padding: 0px 15px;
+        border: solid 1px var(--second-accent-color);
+}
+
+
+
+
+/*************/
+/* Main */
+/*************/
+main a:first-of-type > img{
+  width: 384px;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+main section:first-of-type ul{
+  overflow-x: scroll;
+}
+
+main section:first-of-type h2{
+  font-family:; 
+}
+/*************/
+/* Footer */
+/*************/
