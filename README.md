@@ -41,11 +41,11 @@ https://www.bathandbodyworks.com
 
 #### Screenshot(s) van de eerste pagina (small screen): 
 hier de naam van de pagina  
-<img src="images/home-pagina.jpg" width="375px" alt="home pagina">
+<img src="images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
 
 #### Screenshot(s) van de tweede pagina (small screen):
 hier de naam van de pagina  
-<img src="images/product-pagina.jpf" width="375px" alt="product pagina">
+<img src="images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
  
 </details>
 
@@ -57,10 +57,10 @@ hier de naam van de pagina
 <summary>uitwerken na afloop 2e werkgroep</summary>
 
 ### de hele pagina: 
-<img src="images/breakdown_sheet.png" width="375px" alt="breakdown van de hele pagina">
+<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
 
 ### dynamisch deel (bijv menu): 
-<img src="images/menu.png" width="375px" alt="breakdown van het menu">
+<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
 
 ### wellicht nog een dynamisch deel (bijv filter): 
 <img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
@@ -77,17 +77,17 @@ hier de naam van de pagina
 <summary>uitwerken voor 1e voortgang</summary>
 
 ### Stand van zaken
-Ik kreeg in het begin van het blok al een achterstand omdat ik eigenlijk overdomppeld werd met de hoeveelheid werk dat we moesten opleveren. Met mijn eigen planningen lopen de lessen van front-end development niet goed overeen waardoor ik veel dingen heb moeten overslaan. In de lessen focus ik altijd het meest op het huiswerk omdat ik daar later geen tijd voor heb. Hierdoor heb ik dus vooral gefocused op het huiswerk en best weinig op mijn eigen website. Aangezien we de stof van het huiswerk allemaal moeten toepassen op onze website vind ik het belangrijk om mij eerst daarop te focussen zodat het maken van mijn website veel makkelijker gaat. Op dit moment heb ik de html van de eerst pagina al uitgetypt en ben ik begonnen met mijn css. Vergeleken met de rest van de klas en de tijd loop ik wel een stuk achter. 
+hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
 
 ### Agenda voor meeting
 samen met je groepje opstellen
 
-| Aris Rosbach   | Max van Liempdt    | Zoë Reijinga | Fleur Oostingh   | Anneke Steller |
-| ---            | ---                | ---          | ---              | ---            |
-| Vragen over    | Heeft geen vragen  | Vragen over  |Heeft geen vragen | Ik loop achter.|   
-| margins        |                    | zoekbalk erin|                  |                |
-| ...            | ...                | zetten       | ...              |                |
+| student 1      | student 2          | student 3    | student 4        |
+| ---            | ---                | ---          | ---              |
+| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
+| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
+| ...            | ...                | ...          | ...              |
 
 
 ### Verslag van meeting
@@ -98,7 +98,7 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 - nog een punt
 - ...
 
-</details> 
+</details>
 
 
 
