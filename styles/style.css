@@ -22,12 +22,13 @@
   --border-color: #848a9c;
 
   /* colors voor de states */
-  --second-border-color: #ccc; 
-  --visited-color: rgb(47, 56, 168); 
-  --second-background-color: lightblue; 
+  --second-border-color: #ccc;
+  --visited-color: rgb(47, 56, 168);
+  --second-background-color: lightblue;
 
 
 }
+
 /******************************/
 /* fonts */
 /******************************/
@@ -59,6 +60,7 @@ body {
 /*************/
 /* Header */
 /*************/
+
 /* position sticky zorgt ervoor dat de header mee scrollt als je door het scherm heen scrollt. Het gedraagt zich eerst als position: relative 
 totdat er door het scherm wordt gescrolld dan verandert het naar position: fixed. */
 
@@ -76,7 +78,7 @@ header section:first-of-type div {
   margin: 0px 32px;
   padding: 8px;
 
-  background:var(--main-color);
+  background: var(--main-color);
 
 }
 
@@ -84,21 +86,21 @@ header section:first-of-type div a {
   font-family: 'Trade Gothic Bold', 'Times New Roman', Times, serif;
   font-size: 12px;
   color: var(--brand-color);
-  
-  
+
+
 }
 
 header section:first-of-type div a:hover {
-  background: var(--second-background-color); 
+  background: var(--second-background-color);
 }
 
 /* Als de gebruiker op de link heeft geklikt dan verandert de kleur zodat de gebruiker ziet dat hij/zij er al geweest is */
 
 header section:first-of-type div a:visited {
-  color:var(--visited-color);
+  color: var(--visited-color);
 }
 
-header section:first-of-type div a:focus{
+header section:first-of-type div a:focus {
   border: solid 2px var(--brand-color);
   background-color: var(--second-background-color);
 }
@@ -113,7 +115,7 @@ header section:first-of-type p {
 header section:first-of-type {
   display: flex;
   flex-direction: column;
-  
+
   text-align: center;
 
   background-image: url('../images/achtegrond_blokjes.svg');
@@ -125,8 +127,8 @@ header section:nth-of-type(2) {
   justify-content: space-between;
   padding: 10px 15px;
 
-  background:var(--main-color);
-  
+  background: var(--main-color);
+
   border: solid 1px #ccc;
 }
 
@@ -145,21 +147,19 @@ header section:nth-of-type(2) nav button {
   background: none;
   border: none;
 }
-  
+
 
 header section:nth-of-type(2) nav button span {
   z-index: 5;
-  
+
   margin: 3px;
   width: 27px;
   height: 2px;
-  
-  
+
+
   background: var(--brand-color);
-  
-  transition: 1s;
 
-
+  transition: 1s
 }
 
 header section:nth-of-type(2) input {
@@ -172,12 +172,14 @@ header section:nth-of-type(2) h1 img {
   height: auto;
 
 }
+
 /* Door middel van deze div heb ik met position de p in het midden van de foto */
 header section:nth-of-type(2) div {
   position: relative;
 
 
 }
+
 
 header section:nth-of-type(2) div p {
   position: absolute;
@@ -188,9 +190,10 @@ header section:nth-of-type(2) div p {
   font-family: 'Trade Gothic Light', 'Times New Roman', Times, serif;
   font-size: 10px;
   color: var(--brand-color);
-  
+
 }
 
+/* door deze waardes is de ul even lang als het scherm */
 
 header section:nth-of-type(2) nav ul {
   position: fixed;
@@ -221,7 +224,7 @@ header section:nth-of-type(2) nav ul li a {
   font-family: 'Trade Gothic Light', 'Times New Roman', Times, serif;
   font-size: 20px;
   color: var(--accent-color);
-  text-decoration: none; 
+  text-decoration: none;
 }
 
 header section:nth-of-type(2) nav ul li a:hover {
@@ -229,26 +232,26 @@ header section:nth-of-type(2) nav ul li a:hover {
   text-decoration: underline 3px var(--brand-color);
 }
 
-header section:nth-of-type(2) nav ul li a:focus{
+header section:nth-of-type(2) nav ul li a:focus {
   border: solid 2px var(--brand-color);
   background-color: var(--second-background-color);
 
 }
 
-
-header section:nth-of-type(2) > button{
+/* de standaard design voor alle buttons in de header worden hier uitgezet */
+header section:nth-of-type(2)>button {
   background: none;
   border: none;
-} 
+}
 
-header section:nth-of-type(2) > button:focus{
+header section:nth-of-type(2)>button:focus {
   border: solid 2px var(--brand-color);
   background-color: var(--second-background-color);
 
 }
 
-header section:nth-of-type(2) input:hover{
-  border: solid 4px var(--brand-color); 
+header section:nth-of-type(2) input:hover {
+  border: solid 4px var(--brand-color);
 
 }
 
@@ -258,24 +261,25 @@ header section:nth-of-type(2) input:hover{
 /*************/
 /* Main */
 /*************/
-main > a img {
+main>a img {
   margin: 15px 15px;
   width: 384px;
   max-width: 100%;
   height: 641px;
   max-height: 100%;
 
- 
+
 
 }
+
 /* deze img wordt pas bij andere schermformaten alleen gezien */
 main a:nth-of-type(2) img {
   display: none;
 }
 
-main a:nth-of-type(2) img:focus{
+main a:nth-of-type(2) img:focus {
   border: solid 5px var(--brand-color);
-  
+
 }
 
 
@@ -287,19 +291,19 @@ main section:first-of-type ul {
 main section:first-of-type li {
   margin: 10px 15px;
   padding: 5px 0px;
-  
+
   text-align: center;
- 
+
   background: var(--accent-color);
 
 
 }
 
 main section:first-of-type li a h2 {
-  font-family: 'Julius Sans One', sans-serif;
+  font-family: 'Julius Sans One', Arial, Helvetica, sans-serif;
   font-size: 18px;
   color: var(--main-color);
-  transform: uppercase;   
+  text-transform: uppercase;
 }
 
 main section:first-of-type li a {
@@ -309,52 +313,53 @@ main section:first-of-type li a {
 main section:first-of-type li a h2:hover {
   box-shadow: 3px 3px 0px var(--border-color);
 
-} 
+}
 
 main section:first-of-type li a h2:focus {
   background: var(--background-color);
   color: var(--accent-color);
-  border: dotted 4px var(--second-border-color); 
+  border: dotted 4px var(--second-border-color);
 
-} 
+}
 
 main video {
   margin: 30px 10px;
   width: 384px;
   height: 200px;
-  
+
 }
 
 main section:nth-of-type(2) {
   margin: 0px 15px;
   text-align: center;
-  
 
 
 }
 
 main section:nth-of-type(2)>p {
-  font-family: 'Just Lovely';
+  font-family: 'Just Lovely', 'Courier New', Courier, monospace;
   font-size: 28px;
   color: var(--second-accent-color);
 }
 
 main section:nth-of-type(2) h2 {
-  font-family: 'Julius Sans One', sans-serif;
+  font-family: 'Julius Sans One', Arial, Helvetica, sans-serif;
   font-size: 18px;
   color: var(--accent-color);
-  
+
   text-transform: uppercase;
   letter-spacing: 3px;
-  
+
 }
 
 main section:nth-of-type(2) p:nth-of-type(2) {
-  font-family: 'Trade Gothic Light';
+  font-family:'Trade Gothic Light', 'Times New Roman', Times, serif;
   font-size: 16px;
   color: var(--second-accent-color);
 
 }
+
+/* met overflow-x : scroll kan je alle items in een scrollbar zetten en er door heel scrollen */
 
 main section:nth-of-type(2) ul {
   position: relative;
@@ -362,7 +367,7 @@ main section:nth-of-type(2) ul {
   flex-direction: row;
 
   padding: 20px 0px;
-  
+
   overflow-x: scroll;
 
   list-style: none;
@@ -376,7 +381,7 @@ main section:nth-of-type(2) li {
 
 main section:nth-of-type(2) li p {
   margin: 10px 0px;
-  
+
   font-family: 'Trade Gothic Light', 'Times New Roman', Times, serif;
   font-size: 10px;
   color: var(--second-accent-color);
@@ -399,12 +404,12 @@ main section:nth-of-type(2) li a img {
   width: 80vw;
   max-width: 35vw;
   height: auto;
-  
+
 }
 
 main section:nth-of-type(2) button {
   padding: 10px 15px;
-  
+
   color: var(--main-color);
   font-size: 10px;
   font-family: 'Trade Gothic Regular', 'Times New Roman', Times, serif;
@@ -418,15 +423,15 @@ main section:nth-of-type(2) button {
 main section:nth-of-type(2) button:hover {
   font-family: 'Trade Gothic Bold', 'Times New Roman', Times, serif;
   box-shadow: 3px 3px 0px var(--border-color);
-  
+
 }
 
 main section:nth-of-type(2) button:focus {
   font-family: 'Trade Gothic Bold', 'Times New Roman', Times, serif;
   color: var(--accent-color);
-  
-  background-color: var(--background-color);
-  border: dotted 4px #76ace3;
+
+  background: var(--background-color);
+  border: dotted 4px var(--second-border-color);
 
 }
 
@@ -439,12 +444,13 @@ main section:nth-of-type(3) {
 main section:nth-of-type(3) h2 {
   margin: 20px 0px;
 
-  font-family: 'Julius Sans One', sans-serif;
+  font-family: 'Julius Sans One', Arial, Helvetica, sans-serif;
   font-size: 18px;
   color: var(--accent-color);
   text-transform: uppercase;
-  
+
 }
+
 /*  deze regels zorgen ervoor wordt er een animatie gemaakt die later in de code wordt aangesproken */
 @keyframes kerst-bewegingen {
   0% {
@@ -460,6 +466,7 @@ main section:nth-of-type(3) h2 {
   }
 }
 
+/* met ::after kan je content achter het element plaatsen waardoor het wel bij elkaar staat maar je kan ze apart gemakkelijk stylen */
 main section:nth-of-type(3) h2 a::after {
   content: "🎄";
 
@@ -483,7 +490,7 @@ main section:nth-of-type(3) img {
 
 main section:nth-of-type(3) h3 {
   padding: 0px 0px 50px;
-  
+
   font-size: 15px;
   font-family: 'Trade Gothic Bold', 'Times New Roman', Times, serif;
   letter-spacing: 3px;
@@ -516,8 +523,8 @@ main section:nth-of-type(3) h2 a:hover {
 
 
 
-main  a:nth-of-type(3) img,
-main  a:nth-of-type(4) img {
+main a:nth-of-type(3) img,
+main a:nth-of-type(4) img {
   margin: 10px 15px;
   width: 384px;
   height: 100%;
@@ -527,31 +534,32 @@ main section:nth-of-type(4) {
   margin: 0px 15px;
   text-align: center;
 }
+
 /* Door grid te gebruiken heb ik de elementen nestjes in twee rijen gekregen. Deze rijen zijn gebaseerd op fracties van het scherm. 
 Grid gap zorgt voor ruimte tussen de colomen en rijen */
 main section:nth-of-type(4) ul {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 30px;
-  
+
   list-style: none;
 
 }
 
 main section:nth-of-type(4) h2 {
   margin: 10px 0px;
-  
-  font-family: 'Julius Sans One', sans-serif;
+
+  font-family: 'Julius Sans One', Arial, Helvetica, sans-serif;
   font-size: 18px;
 
 }
 
 main section:nth-of-type(4) a {
-  font-family: 'Julius Sans One', sans-serif;
+  font-family: 'Julius Sans One', Arial, Helvetica, sans-serif;
   font-size: 10px;
   color: var(--accent-color);
   text-decoration: none;
-  
+
 
 }
 
@@ -564,7 +572,7 @@ main section:nth-of-type(4) a:hover {
 main section:nth-of-type(4) img {
   width: 171px;
   height: 100%;
-  
+
 }
 
 /* de img krijgen een schaduw zodra de gebruiker met de muis over de img heen gaat */
@@ -580,7 +588,7 @@ main article:first-of-type {
 }
 
 main article:first-of-type h2 {
-  font-family: 'Julius Sans One', sans-serif;
+  font-family: 'Julius Sans One', Arial, Helvetica, sans-serif;
   font-size: 18px;
 }
 
@@ -604,14 +612,14 @@ main article:nth-of-type(2) h2 {
 
   font-family: 'Trade Gothic Regular', 'Times New Roman', Times, serif;
   font-size: 28px;
-  
+
 
 }
 
 main article:nth-of-type(2) p {
   margin: 10px 15px;
   font-family: 'Trade Gothic Light', 'Times New Roman', Times, serif;
-  
+
 }
 
 main article:nth-of-type(2) p a {
@@ -679,7 +687,7 @@ main.product_pagina section:nth-of-type(2) {
 
 main.product_pagina section:nth-of-type(2)>p:first-of-type {
   margin: 20px 0px 0px;
-  
+
   font-family: 'Trade Gothic Bold', 'Times New Roman', Times, serif;
   font-size: 16px;
   color: var(--accent-color);
@@ -729,7 +737,7 @@ main.product_pagina section:nth-of-type(2) section:first-of-type div button {
   color: var(--accent-color);
 
   background: var(--background-color);
-  
+
 
 }
 
@@ -754,7 +762,7 @@ main.product_pagina section:nth-of-type(2) ul li {
 
 main.product_pagina section:nth-of-type(2) ul li:nth-of-type(3) {
   border-bottom: solid 2px var(--background-color);
-  
+
 }
 
 main.product_pagina section:nth-of-type(2) ul li div {
@@ -777,12 +785,12 @@ main.product_pagina section:nth-of-type(2) ul li h2 {
 
 main.product_pagina section:nth-of-type(2) ul li p {
   margin: 0;
-  
+
   font-family: 'Trade Gothic Light', 'Times New Roman', Times, serif;
   font-size: 14px;
   text-align: left;
 
-  
+
 }
 
 main.product_pagina section:nth-of-type(2) ul li:nth-of-type(2) p,
@@ -801,7 +809,7 @@ main.product_pagina section:nth-of-type(3) img {
   width: 30px;
 
   background-color: var(--second-accent-color);
-  
+
   border-radius: 7px;
 
 }
@@ -812,7 +820,7 @@ main.product_pagina section:nth-of-type(3) img {
 
 main.product_pagina form {
   padding: 1em;
-  
+
   border: solid 2px var(--background-color);
   border-radius: 5px;
   box-shadow: 3px 3px 10px var(--second-accent-color);
@@ -861,7 +869,7 @@ main.product_pagina fieldset:nth-of-type(3) input {
 main.product_pagina fieldset input:hover {
   border: solid 3px var(--brand-color);
   border-radius: 4px;
-  background-color: var(--second-background-color); 
+  background: var(--second-background-color);
 }
 
 main.product_pagina fieldset input:focus {
@@ -875,16 +883,16 @@ main.product_pagina fieldset input:focus {
 main.product_pagina fieldset label::after {
   content: "*";
   margin: 5px;
-  
+
   font-size: 12px;
   color: red;
- 
+
 }
 
 main.product_pagina form button {
   padding: 10px 16px;
   width: 100%;
-  
+
   font-family: 'Trade Gothic Regular', 'Times New Roman', Times, serif;
   font-size: 14px;
   text-transform: uppercase;
@@ -902,9 +910,9 @@ main.product_pagina form button:hover {
 
 main.product_pagina form button:focus {
   font-family: 'Trade Gothic Bold', 'Times New Roman', Times, serif;
-  border: solid 4px var(--brand-color); 
+  border: solid 4px var(--brand-color);
   color: var(--brand-color);
- 
+
 
 
 }
@@ -915,7 +923,7 @@ main.product_pagina form button:focus {
 /*************/
 footer article:first-of-type p {
   margin: 20px 15px;
-  
+
   font-family: 'Trade Gothic Light', 'Times New Roman', Times, serif;
   font-size: 14px;
 }
@@ -929,17 +937,17 @@ footer article:first-of-type a {
   color: white;
   text-transform: uppercase;
   text-decoration: none;
-  
+
   background: var(--accent-color);
 }
 
 footer section:first-of-type section {
   display: flex;
   justify-content: space-between;
-  
+
   margin: 25px 0px;
   padding: 25px 15px;
-  
+
 
   background: var(--background-color);
 }
@@ -948,7 +956,7 @@ footer section:first-of-type section img {
   width: 15px;
 }
 
-
+/* uppercase zorgt ervoor dat alle letters in hoofdletters staan */
 
 footer section:first-of-type section h2 {
   font-family: 'Trade Gothic Light', 'Times New Roman', Times, serif;
@@ -982,7 +990,7 @@ footer section:first-of-type li a {
 
 }
 
-footer section:first-of-type li a:hover{
+footer section:first-of-type li a:hover {
   font-family: 'Trade Gothic Regular', 'Times New Roman', Times, serif;
   text-decoration: underline 3px var(--brand-color);
 
@@ -1014,7 +1022,7 @@ footer section:nth-of-type(2) a img {
   width: 30px;
 
   background: var(--brand-color);
-  
+
   border-radius: 7px;
 
 
@@ -1028,7 +1036,7 @@ footer section:nth-of-type(3) img {
 footer section:last-of-type {
   padding: 30px 0px;
   text-align: center;
-  background-color: var(--background-color);
+  background: var(--background-color);
 }
 
 footer section:last-of-type ul {
@@ -1042,7 +1050,7 @@ footer section:last-of-type ul {
 footer section:last-of-type ul li {
   padding: 0px 5px;
   border-right: solid 1px var(--second-accent-color);
-  
+
 }
 
 footer section:last-of-type ul li:last-of-type {
@@ -1054,7 +1062,7 @@ footer section:last-of-type ul li a {
   font-size: 14px;
   color: var(--accent-color);
   text-decoration: none;
-  
+
 }
 
 footer section:last-of-type ul li a:hover {
@@ -1064,7 +1072,7 @@ footer section:last-of-type ul li a:hover {
 
 footer section:last-of-type p {
   margin: 20px 0px;
-  
+
   font-family: 'Trade Gothic Light', 'Times New Roman', Times, serif;
   font-size: 14px;
   color: var(--second-accent-color);
@@ -1079,13 +1087,13 @@ footer section:last-of-type p {
 @media all and (min-width: 768px) {
 
 
-/*************/
-/* HEADER */
-/*************/
+  /*************/
+  /* HEADER */
+  /*************/
 
   header section:first-of-type div {
     margin: 0px 100px;
-    background: var(--main-color); 
+
 
   }
 
@@ -1103,6 +1111,7 @@ footer section:last-of-type p {
 
   }
 
+  /* door de wrap-reverse komen het menu mooi onder de andere items te staan */
 
   header section:nth-of-type(2) {
     display: flex;
@@ -1110,7 +1119,7 @@ footer section:last-of-type p {
     justify-content: space-evenly;
     padding: 10px 15px;
 
-    background: var(--main-color); 
+    background: var(--main-color);
 
     border: solid 1px #ccc;
   }
@@ -1119,7 +1128,7 @@ footer section:last-of-type p {
     margin: auto 0;
     width: 30px;
     height: auto;
-    
+
 
   }
 
@@ -1137,8 +1146,8 @@ footer section:last-of-type p {
 
     border: solid 2px var(--brand-color);
     border-radius: 1em;
-   
-  
+
+
 
     background-image: url("../images/zoek.png");
     background-repeat: no-repeat;
@@ -1179,11 +1188,11 @@ footer section:last-of-type p {
     position: relative;
     margin: 20px;
     padding: 10px 20px;
-    
+
     list-style: none;
-    
+
     background: var(--main-color);
-    
+
   }
 
 
@@ -1195,9 +1204,9 @@ footer section:last-of-type p {
     padding: 10px;
   }
 
-/*************/
-/* MAIN */
-/*************/
+  /*************/
+  /* MAIN */
+  /*************/
 
   main>a img {
     margin: 70px 34px;
@@ -1226,7 +1235,7 @@ footer section:last-of-type p {
     margin: 20px 34px;
     width: 700px;
     height: auto;
-    
+
   }
 
 
@@ -1306,9 +1315,9 @@ footer section:last-of-type p {
 
   }
 
-/*************/
-/* STYLING TWEEDE PAGINA */
-/*************/
+  /*************/
+  /* STYLING TWEEDE PAGINA */
+  /*************/
 
   main.product_pagina>div img:nth-of-type(2) {
     width: 60%;
@@ -1322,9 +1331,10 @@ footer section:last-of-type p {
     padding: 23px 20px;
 
   }
-/*************/
-/* FOOTER */
-/*************/
+
+  /*************/
+  /* FOOTER */
+  /*************/
 
   footer article:first-of-type p {
     font-size: 16px;
@@ -1345,9 +1355,9 @@ footer section:last-of-type p {
 
 @media all and (min-width: 1000px) {
 
-/*************/
-/* HEADER */
-/*************/
+  /*************/
+  /* HEADER */
+  /*************/
 
   header section:nth-of-type(2) div p {
     font-size: 13px;
@@ -1357,15 +1367,15 @@ footer section:last-of-type p {
     margin: 0;
   }
 
-/*************/
-/* MAIN */
-/*************/
+  /*************/
+  /* MAIN */
+  /*************/
 
   main>a:first-of-type img {
     display: none;
   }
 
-/*  hier zorg ik ervoor dat een img die speciaal gemaakt is voor de desktop te zien is op de website.  */
+  /*  hier zorg ik ervoor dat een img die speciaal gemaakt is voor de desktop te zien is op de website.  */
   main>a:nth-of-type(2) img {
     display: block;
     margin: auto;
@@ -1380,12 +1390,13 @@ footer section:last-of-type p {
     height: 400px;
 
   }
- /*  vw is gelijk aan 1/100 van de viewport dus hierbij is de width 20% van de browser en mag het niet groter worden dan 35% van de browser */
+
+  /*  vw is gelijk aan 1/100 van de viewport dus hierbij is de width 20% van de browser en mag het niet groter worden dan 35% van de browser */
   main section:nth-of-type(2) li a img {
     width: 20vw;
     max-width: 35vw;
     height: auto;
-    
+
   }
 
 
@@ -1423,7 +1434,7 @@ footer section:last-of-type p {
   main a:nth-of-type(4) img {
     margin: 30px 230px;
     width: 70%;
-   
+
 
   }
 
@@ -1431,9 +1442,9 @@ footer section:last-of-type p {
     grid-template-columns: 1fr 1fr 1fr;
   }
 
-/*************/
-/* TWEEDE PAGINA */
-/*************/
+  /*************/
+  /* TWEEDE PAGINA */
+  /*************/
   main.product_pagina {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -1443,10 +1454,13 @@ footer section:last-of-type p {
 
   }
 
+  /* hier zorg ik ervoor dat alle sections in de tweede colom gaan staan */
   main.product_pagina section {
     grid-column: 2;
 
   }
+
+  /* hier plaats ik de div in de tweeede rij  */
 
   main.product_pagina>div {
     grid-row: 2;
@@ -1544,7 +1558,7 @@ footer section:last-of-type p {
     width: 30px;
 
     background-color: var(--second-accent-color);
-    
+
     border-radius: 7px;
 
   }
@@ -1559,9 +1573,9 @@ footer section:last-of-type p {
     margin: 0px 70px;
   }
 
-/*************/
-/* FOOTER */
-/*************/
+  /*************/
+  /* FOOTER */
+  /*************/
 
   footer article:first-of-type p {
     font-size: 16px;
@@ -1580,6 +1594,8 @@ footer section:last-of-type p {
 /*************/
 /* CLASSES */
 /*************/
+
+/*  de images draait een half rondje als de class geactiveerd wordt */
 
 .dropdown {
   transform: rotate(180deg);
