@@ -215,8 +215,8 @@ Waar ik eigenlijk vooral moeite mee heb gehad is de tijd. Ik heb graag veel meer
 
 ### Screenshot(s)
  
- <img src="images/eindresultaat1.png" width="375px" alt="Spasme/parkinson simulatie">
- <img src="images/eindresultaat2.png" width="375px" alt="Spasme/parkinson simulatie">
+ <img src="images/eindresultaat1.png" width="375px" alt="eindresultaat home pagina">
+ <img src="images/eindresultaat2.png" width="375px" alt="eindresultaat product pagina">
  
  
 
