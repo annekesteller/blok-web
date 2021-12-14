@@ -167,7 +167,8 @@ De font-size niet te klein maken. Vooral niet als er met dunne letters wordt gew
 
 #### Spasme/parkinson simulatie. 
 
-<img src="images/apparaat.png" width="375px" alt="Spasme/parkinson simulatie">
+<img src="images/test.png" width="375px" alt="Spasme/parkinson simulatie">
+
 Mijn testpersoon kon nog redelijk de website gebruiken. Hij maakte vooral gebruik van de tab toets omdat je toch best snel op random dingen klikt door het apparaat. 
 
 Goed kijken of de focus state goed duidelijk is. 
