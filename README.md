@@ -41,11 +41,11 @@ https://www.bathandbodyworks.com
 
 #### Screenshot(s) van de eerste pagina (small screen): 
 hier de naam van de pagina  
-<img src="images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+<img src="images/home-pagina.jpg" width="375px" alt="Dit de home pagina met verschillende reclames en producten">
 
 #### Screenshot(s) van de tweede pagina (small screen):
 hier de naam van de pagina  
-<img src="images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+<img src="images/product-pagina" width="375px" alt="Dit is de product pagina waarop je alle informatie van het product kan terugvinden">
  
 </details>
 
@@ -57,13 +57,12 @@ hier de naam van de pagina
 <summary>uitwerken na afloop 2e werkgroep</summary>
 
 ### de hele pagina: 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+<img src="images/breakdown1.png" width="375px" alt="breakdown van de hele pagina">
 
 ### dynamisch deel (bijv menu): 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
+<img src="images/breakdown2.png" width="375px" alt="breakdown van het menu">
 
-### wellicht nog een dynamisch deel (bijv filter): 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+
 
 </details>
 
@@ -77,26 +76,22 @@ hier de naam van de pagina
 <summary>uitwerken voor 1e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Ik loop momenteel wat achter dan de rest van mijn klasgenoten. Ik heb nu alle html van de eerste pagina er ingezet dus ik kan nu beginnen met het stylen van de pagina. 
 
 
 ### Agenda voor meeting
 samen met je groepje opstellen
 
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+| Anneke         | Max en Zoe         | Aris         | Fleur      
+| ---            | ---                | ---          | ---            
+| achterstand    | hebben geen        | Vragen over  | Had geen vragen            
+| vermelden      | vragen             | margin       |  
+| ...            | ...                | ...          | ...              
 
 
 ### Verslag van meeting
-hier na afloop snel de uitkomsten van de meeting vastleggen
-
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- een keer goed voor zitten om achterstand bij te werken
+- vragen stellen waarbij dat nodig is 
 
 </details>
 
@@ -110,24 +105,29 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 <summary>uitwerken voor 2e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Afgelopen week heb ik veel uren in mijn code gestopt en heb ik mijn eerste pagina kunnen afronden. 
+
+Ik had op een gegeven moment wel wat moeite met de items in de scrollbar maar dat heb ik uiteindelijk kunnen fixen. 
+
+<img src="images/code" width="375px" alt="code">
+<img src="images/week2" width="375px" alt="screenshot van mijn website">
 
 
 ### Agenda voor meeting
 samen met je groepje opstellen
 
-| student 1      | student 2          | student 3    | student 4        |
+| Larissa        | Yeliz              | Anneke       | student 4        |
 | ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+|Logo veranderen | vragen welke       | Heb geen     | en dan ik dat    |
+| in darkmode    | beter is om        | vragen       | dit wil ik zeker |
+| ...            | te maken           | ...          | ...              |
 
 
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
+- Larissa heeft haar logo kunnen veranderen 
+- Yeliz heeft nog steeds geen keuze kunnen maken welke pagina ze wilt gaan maken 
 - nog een punt
 - ...
 
@@ -145,33 +145,34 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 ### Bevindingen
 Lijst met je bevindingen die in de test naar voren kwamen:
 
-#### Titel eerste bevinding
-Hier korte omschrijving (met indien nodig een afbeelding)
+#### Screen reader
+Verschillende alt tekstjes van afbeeldingen waren vaag of niet duidelijk. 
+Verder las de screenreader niet de labels van het formulier voor.
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-
-
-#### Titel tweede bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+Alt teksten veranderen naar een wat duidelijkere omschrijving en het label aan de input koppelen. 
 
 
-#### Titel volgende bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
+#### Bril met 1 gaatje (slechtziend) . 
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+Met deze bril gaf mijn testpersoon aan dat kleine tekstjes lastig te lezen zijn. Met de focus state is wel goed te volgen waar je je beviend op de pagina. Verder mocht de "in winkelwagen" button op de tweede pagina wat groter.
 
 
-#### Titel nog een bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
+Vooral alle teksten wat vergroten zodat het makkelijker te lezen is. 
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+#### Low contrast bril. 
+Kleinere teskten waren lastig om te lezen. Verder was alles redelijk leesbaar. 
+
+De font-size niet te klein maken. Vooral niet als er met dunne letters wordt gewerkt. 
+
+
+#### Spasme/parkinson simulatie. 
+
+<img src="images/apparaat.HEIC" width="375px" alt="Spasme/parkinson simulatie">
+Mijn testpersoon kon nog redelijk de website gebruiken. Hij maakte vooral gebruik van de tab toets omdat je toch best snel op random dingen klikt door het apparaat. 
+
+Goed kijken of de focus state goed duidelijk is. 
 
 </details>
-
-
-
 
 
 ## Voortgang 3 (week 4)
@@ -180,27 +181,23 @@ Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbe
 <summary>uitwerken voor 3e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+De laatste week heb ik mijn tweede pagina kunnen afmaken. Ik had wel wat moeite om mijn hamburger menu werkend te maken. Maar dat heb ik met de student-assistent kunnen fixen in de les. 
 
 
 ### Agenda voor meeting
 samen met je groepje opstellen
 
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+Anneke: of er handige trukjes zijn om je css te cleanen 
+Yeliz: vragen over wat precies valt onder DOM manipulatie\
+Larissa: footer van tweede pagina is versprongen
 
 
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
-
+- kijken voor extensions 
+- extension van Sam gebruiken om mooi comments te kunnen plaatsen
+- de slides van Sanne terug kijken over een schone css 
 </details>
 
 
@@ -213,11 +210,9 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 <summary>uitwerken voor eindgesprek</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Waar ik eigenlijk vooral moeite mee heb gehad is de tijd. Ik heb graag veel meer aan mijn site willen doen maar door de tijd kan dat jammer genoeg niet meer. Daarnaast heb ik vooral wel moeite gehad met javascript. Het lukte niet altijd om de juiste elementen aan te spreken. 
 
 ### Screenshot(s)
-
-hier screenshot(s) van je eindresultaat
 
 </details>
 
@@ -230,10 +225,9 @@ hier screenshot(s) van je eindresultaat
 <details open>
 <summary>continu bijhouden terwijl je werkt</summary>
 
-Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
-
-1. bron 1
-2. bron 2
-3. ...
+1. https://bathandbodyworks.nl/nl/
+2. https://www.youtube.com/watch?v=t4LXx2PW1yA  (bron van het geluidje wat ik heb)
+3. https://www.geeksforgeeks.org/how-to-insert-video-in-web-page-and-play-it-using-html/
+4. https://www.youtube.com/watch?v=ZYV6dYtz4HA
 
 </details>
