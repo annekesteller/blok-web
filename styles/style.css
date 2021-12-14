@@ -1563,6 +1563,7 @@ footer section:last-of-type p {
 
   }
 
+/*  Hier wordt het formulier over de twee colomen heen verdeeld. Het start bij lijn 1 en eindigt bij lijn 3  */
   main.product_pagina form {
     grid-column: 1/3;
   }
