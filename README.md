@@ -214,6 +214,11 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 Waar ik eigenlijk vooral moeite mee heb gehad is de tijd. Ik heb graag veel meer aan mijn site willen doen maar door de tijd kan dat jammer genoeg niet meer. Daarnaast heb ik vooral wel moeite gehad met javascript. Het lukte niet altijd om de juiste elementen aan te spreken. 
 
 ### Screenshot(s)
+ 
+ <img src="images/eindresultaat1.png" width="375px" alt="Spasme/parkinson simulatie">
+ <img src="images/eindresultaat2.png" width="375px" alt="Spasme/parkinson simulatie">
+ 
+ 
 
 </details>
 
