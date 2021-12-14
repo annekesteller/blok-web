@@ -45,7 +45,7 @@ hier de naam van de pagina
 
 #### Screenshot(s) van de tweede pagina (small screen):
 hier de naam van de pagina  
-<img src="images/product-pagina" width="375px" alt="Dit is de product pagina waarop je alle informatie van het product kan terugvinden">
+<img src="images/product-pagina.png" width="375px" alt="Dit is de product pagina waarop je alle informatie van het product kan terugvinden">
  
 </details>
 
@@ -109,8 +109,8 @@ Afgelopen week heb ik veel uren in mijn code gestopt en heb ik mijn eerste pagin
 
 Ik had op een gegeven moment wel wat moeite met de items in de scrollbar maar dat heb ik uiteindelijk kunnen fixen. 
 
-<img src="images/code" width="375px" alt="code">
-<img src="images/week2" width="375px" alt="screenshot van mijn website">
+<img src="images/code.png" width="375px" alt="code">
+<img src="images/week2.png" width="375px" alt="screenshot van mijn website">
 
 
 ### Agenda voor meeting
@@ -167,7 +167,7 @@ De font-size niet te klein maken. Vooral niet als er met dunne letters wordt gew
 
 #### Spasme/parkinson simulatie. 
 
-<img src="images/apparaat.HEIC" width="375px" alt="Spasme/parkinson simulatie">
+<img src="images/apparaat.png" width="375px" alt="Spasme/parkinson simulatie">
 Mijn testpersoon kon nog redelijk de website gebruiken. Hij maakte vooral gebruik van de tab toets omdat je toch best snel op random dingen klikt door het apparaat. 
 
 Goed kijken of de focus state goed duidelijk is. 
